@@ -1,0 +1,47 @@
+
+body {
+  /* background-color: pink; */
+  background-image: url(../componentes/imagens/planoDeFundo.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  height: 80vh;
+  position: relative;
+}
+
+.elemente{
+  position: absolute;
+  top: 90%;
+  left:43%;
+}
+.elemente2{
+  position: absolute;
+  top: 83%;
+  left:44%;
+}
+
+.button{
+  display: flex;
+  flex-direction: column-reverse;    
+  margin-left: 50px;
+  margin-bottom: auto;
+  background-color:#70ABE0;
+  border-color:aqua;
+  border-radius: 50px;
+} 
+
+.nome{
+  position: absolute;
+  top: 10%;
+  left: 37%;
+  color: #70ABE0;
+  font-size: 30px;
+  /*tipo de fonte*/
+  font-family: fantasy;
+  font-style: Stencil Std;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
